@@ -7,11 +7,11 @@
   }
   
   body {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 22px;
+    font-family: raleway, Cochin, Georgia, Times, 'Times New Roman', serif, Arial, Helvetica, sans-serif;
+    font-size: 50px;
     padding-top: 45px;
-    color: hsl(0, 0%, 71%);
-    background-color: hsl(0, 0%, 11%);
+    color: hsl(0, 0%, 0%);
+    background-color: hsl(160, 100%, 25%);
     /* background-color: gree; */
     opacity: 0.9;
     text-align: center;
@@ -26,7 +26,7 @@
     border-bottom: 1px solid seashell;
     box-shadow: 0 5px 20px 0 hsla(206, 85%, 5%);
     height: 69px;
-    background-color: hsl(0, 0%, 11%);
+    background-color: hsl(187, 65%, 18%);
     padding: 9.5px 10px;
     top: 0;
     z-index: 1;
@@ -65,7 +65,7 @@
   }
   
   nav a:hover {
-    color: hsl(0, 30%, 41%);;
+    color: hsl(311, 100%, 50%);;
   }
   
   /* Mission Section */
@@ -73,7 +73,7 @@
   .background-image {
     width: 90%;
     height: 400px;
-    background-image: url("../images/hamilton-logo.jpeg");
+    background-image: url("../images/dallass.png");
     background-size: cover;
     background-position: top;
     margin: 30px auto;
@@ -81,14 +81,18 @@
   }
   
   .mission-text {
-    background-color: hsl(0, 0%, 11%);
+    background-color: hsl(160, 100%, 25%);
     margin: auto;
     padding: .75rem 10rem;
-    font-size: 32px;
     opacity: .85;
   }
   
   .mission-text h1 {
+    font-size: 2.5rem;
+    padding-bottom: 1.2rem;
+  }
+
+  .mission-text p {
     font-size: 1.5rem;
     padding-bottom: 1.2rem;
   }
@@ -103,14 +107,18 @@
     align-items: center;
     margin: auto;
   }
-  
+
+  #projects h2 {
+    font-size: 1.5rem;
+  }
+
   #projects .item-border {
     margin: 1rem 1rem;
     padding: 1rem;
     border-radius: 32px;
     align-items: center;
     justify-content: center;
-    background-color: hsl(0, 30%, 21%);
+    background-color: hsl(135, 30%, 40%);
   }
 
   /* .project-container a {
@@ -167,7 +175,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: hsl(0, 30%, 21%);
+    background-color: hsl(168, 94%, 50%);
   }
 
   .item-border p {
